@@ -17,7 +17,7 @@ float highscore = 0;
 float score = 0;
 
 void setup() {
-    size(20, 20);
+    size(600, 400);
     rectMode(CENTER_RADIUS);
     ellipseMode(CENTER_RADIUS);
     noStroke();
@@ -27,7 +27,7 @@ void setup() {
 };
 
 void draw() {
-    // Background color... RGB
+    // Background color... GYR
     background(155,0,0);
 
     // Increment x and y by speed of ball
@@ -89,7 +89,7 @@ void draw() {
     }
 
     // Draw ball
-    fill(0,0,255);
+    fill(0,0,5000);
     ellipse(ball_x, ball_y, ball_size, ball_size);
 
     // Draw the paddle
